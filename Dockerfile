@@ -122,3 +122,6 @@ RUN rsync -ar /var/www/html/public-npm/ /var/www/html/public/ \
 EXPOSE 8080
 
 ENTRYPOINT ["/entrypoint"]
+
+CMD php artisan serve --host=0.0.0.0 --port=8080
+
