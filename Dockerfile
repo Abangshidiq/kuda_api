@@ -123,5 +123,4 @@ EXPOSE 8080
 
 ENTRYPOINT ["/entrypoint"]
 
-CMD php artisan serve --host=0.0.0.0 --port=8080
 
